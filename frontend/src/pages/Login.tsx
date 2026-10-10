@@ -40,7 +40,7 @@ export const Login: React.FC = () => {
   return (
     <div className="max-w-md mx-auto my-12 p-8 bg-white rounded-xl shadow-sm border border-slate-200">
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-slate-800">Sign in to MediConnect</h2>
+        <h2 className="text-2xl font-bold text-slate-800">Sign in to javaProject</h2>
         <p className="text-sm text-slate-500 mt-1">Access your healthcare appointments & records</p>
       </div>
 

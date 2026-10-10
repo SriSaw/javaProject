@@ -76,7 +76,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
               <div className="w-9 h-9 rounded-lg bg-teal-600 text-white flex items-center justify-center font-black">
                 +
               </div>
-              <span>MediConnect</span>
+              <span>javaProject</span>
             </Link>
             {user && (
               <span className="hidden sm:inline-block ml-3 px-2 py-0.5 text-xs font-semibold rounded bg-teal-50 text-teal-700 border border-teal-200">
@@ -188,7 +188,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-6 text-center text-sm text-slate-500">
-        <p>© 2026 MediConnect - Role-Based Healthcare Platform. Verified & Secure.</p>
+        <p>© 2026 javaProject - Role-Based Healthcare Platform. Verified & Secure.</p>
       </footer>
     </div>
   );

@@ -60,7 +60,7 @@ export const Register: React.FC = () => {
     <div className="max-w-xl mx-auto my-8 p-8 bg-white rounded-xl shadow-sm border border-slate-200">
       <div className="text-center mb-6">
         <h2 className="text-2xl font-bold text-slate-800">Create an Account</h2>
-        <p className="text-sm text-slate-500 mt-1">Join the MediConnect healthcare network</p>
+        <p className="text-sm text-slate-500 mt-1">Join the javaProject healthcare network</p>
       </div>
 
       {/* Role Toggle */}
