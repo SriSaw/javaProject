@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: mediconnect-postgres
+    container_name: javaproject-postgres
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-mediconnect}
       POSTGRES_USER: ${POSTGRES_USER:-mediconnect}
@@ -20,7 +20,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: mediconnect-backend
+    container_name: javaproject-backend
     environment:
       DB_HOST: ${DB_HOST:-postgres}
       DB_PORT: ${DB_PORT:-5432}
@@ -39,7 +39,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: mediconnect-frontend
+    container_name: javaproject-frontend
     ports:
       - "80:80"
     depends_on:
